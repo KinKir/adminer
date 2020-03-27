@@ -8,3 +8,11 @@
 2. Brows to this directory for adminer. eg: localhot/adminer
 3. Brows selector.php for theme change. eg: localhost/adminer/selector.php 
  
+#### Preview
+
+Theme changer
+![](images/dashboard.png)
+
+Adminer
+![](images/adminer.png)
+

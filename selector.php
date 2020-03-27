@@ -40,7 +40,7 @@
 
 <nav class="navbar navbar-expand-md navbar-light bg-primary">
 	
-	<a class="navbar-brand">Adminer Theme Selector</a>
+	<a class="navbar-brand ml-3">Adminer Theme Selector</a>
 	<div class="collapse navbar-collapse"></div>
 
 	<ul class="navbar-nav my-2 my-lg-0 mr-5">
