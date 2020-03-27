@@ -1,4 +1,4 @@
-# Adminer with 
+# Adminer: with - 
 * Theme switcher (local)
 * Few themes
 * Custom dashboard page
