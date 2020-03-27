@@ -12,7 +12,10 @@ function adminer_object()
 
 	// Specify enabled plugins here.
 	$plugins = [
-		
+		new AdminerDumpJson,
+		new AdminerEditTextarea,
+		new AdminerEnumTypes,
+		new AdminerPrettyJsonColumn('./adminer.php'),
 	];
 
 	return new AdminerPlugin($plugins);
