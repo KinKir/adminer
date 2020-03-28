@@ -14,8 +14,7 @@ function adminer_object()
 	$plugins = [
 		new AdminerDumpJson,
 		new AdminerEditTextarea,
-		new AdminerEnumTypes,
-		new AdminerPrettyJsonColumn('./adminer.php'),
+		new AdminerEnumTypes
 	];
 
 	return new AdminerPlugin($plugins);
