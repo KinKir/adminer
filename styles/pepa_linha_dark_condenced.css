@@ -965,25 +965,54 @@ form p label {
     }
 }
 
-/* width */
+/*!* width *!*/
+/*::-webkit-scrollbar,*/
+/*::-webkit-scrollbar-corner {*/
+/*    width: 5px;*/
+/*}*/
+
+/*!* Track *!*/
+/*::-webkit-scrollbar-track {*/
+/*    box-shadow: inset 0 0 3px rgba(128, 128, 128, 0.5);*/
+/*    border-radius: 3px;*/
+/*}*/
+
+/*!* Handle *!*/
+/*::-webkit-scrollbar-thumb {*/
+/*    background: #52f1bd;*/
+/*    border-radius: 3px;*/
+/*}*/
+
+/*!* Handle on hover *!*/
+/*::-webkit-scrollbar-thumb:hover {*/
+/*    background: #30FFFF;*/
+/*}*/
+
+
 ::-webkit-scrollbar,
 ::-webkit-scrollbar-corner {
     width: 5px;
 }
 
-/* Track */
+::-webkit-scrollbar-button {
+    background: transparent;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.58);
+    border-radius: 3px;
+}
+
 ::-webkit-scrollbar-track {
+    background: transparent;
     box-shadow: inset 0 0 3px rgba(128, 128, 128, 0.5);
     border-radius: 3px;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #52f1bd;
-    border-radius: 3px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #30FFFF;
+::-webkit-scrollbar-track-piece {
+    background: transparent;
 }
